@@ -14,7 +14,7 @@ Your solution should not violate other **SOLID principles**.
 Make sure you have a **TestProgram** that will validate the proposed refactored codes.
 
 ## Program Implementation
-The system uses the Strategy Pattern via a LibraryResource interface, allowing different items like books or internet terminals to execute their specific behaviors interchangeably. By injecting these resources directly into the LibraryManager, the application remains loosely coupled and highly flexible at runtime. Furthermore, the LibraryManager acts as a Facade by hiding complex validation and checkout logic behind a single, simplified method so the main program does not have to orchestrate those steps.
+The system uses the **Strategy Pattern** via a `LibraryResource` interface, allowing different items like books or internet terminals to execute their specific behaviors interchangeably. By injecting these resources directly into the `LibraryManager`, the application remains loosely coupled and highly flexible at runtime. Furthermore, the `LibraryManager` acts as a **Facade** by hiding complex validation and checkout logic behind a single, simplified method so the main program does not have to orchestrate those steps.
 
 ### Student (Class)
 - **Description**: Represents a student in the library system. Contains student information such as name and student ID. Does not handle borrowing logic directly.
