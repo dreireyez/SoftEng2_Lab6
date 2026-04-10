@@ -68,4 +68,4 @@ The system uses the **Strategy Pattern** via a `LibraryResource` interface, allo
   - **DIP**: Depends on abstractions through the use of interfaces, making it flexible for testing different implementations.
 
 ## Class Diagram
-![Class Diagram](SOLIDwithDesignPattern.png)
+![Class Diagram](ClassDiagram.png)
